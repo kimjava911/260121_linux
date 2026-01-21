@@ -1,0 +1,20 @@
+2026-01-19 10:00:01 INFO System startup sequence initiated.
+2026-01-19 10:00:05 INFO Kernel version 5.15.0-generic loaded.
+2026-01-19 10:00:10 INFO Checking disk partitions...
+2026-01-19 10:00:15 INFO Root partition mounted successfully.
+2026-01-19 10:01:00 WARN High memory usage detected: 85%
+2026-01-19 10:01:05 INFO Starting network services.
+2026-01-19 10:01:10 INFO SSH service started on port 22.
+2026-01-19 10:02:00 ERROR Failed to start service 'legacy-app': exit code 1
+2026-01-19 10:02:05 INFO Retrying service 'legacy-app'...
+2026-01-19 10:02:10 ERROR Failed to start service 'legacy-app': timeout reached.
+2026-01-19 10:03:00 INFO User 'morgan' logged in via SSH from 192.168.1.50.
+2026-01-19 10:03:15 INFO Package manager update check started.
+2026-01-19 10:04:00 INFO Backup task completed successfully.
+2026-01-19 10:05:00 INFO System health check: OK.
+2026-01-19 10:06:01 INFO Cron job 'daily-cleanup' started.
+2026-01-19 10:07:05 CRITICAL CPU temperature exceeded 85C!
+2026-01-19 10:07:10 INFO Fan speed increased to maximum.
+2026-01-19 10:08:00 INFO Temperature stabilized at 65C.
+2026-01-19 10:09:45 WARN Disk space on /home reaching 90%.
+2026-01-19 10:10:01 INFO Routine system snapshot taken.
